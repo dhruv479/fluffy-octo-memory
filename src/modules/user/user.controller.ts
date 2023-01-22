@@ -8,8 +8,8 @@ import {
   Query,
   UseGuards,
 } from '@nestjs/common';
-import { PaginationDTO } from 'src/common/dto/base.dto';
-import { AdminGuard } from 'src/common/guards/admin.guard';
+import { PaginationDTO } from '../../common/dto/base.dto';
+import { AdminGuard } from '../../common/guards/admin.guard';
 import { CreateUserDTO, LoginUserDTO, UpdateUserStatusDTO } from './user.dto';
 import { UserService } from './user.service';
 

@@ -12,7 +12,7 @@ import {
 import { CreateUpdateTodoDTO } from './todo.dto';
 import { TodoService } from './todo.service';
 import { Request } from 'express';
-import { PaginationDTO } from 'src/common/dto/base.dto';
+import { PaginationDTO } from '../../common/dto/base.dto';
 
 @Controller('todo')
 export class TodoController {

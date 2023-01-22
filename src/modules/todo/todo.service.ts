@@ -1,8 +1,8 @@
 import { BadRequestException, Injectable } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model, Types } from 'mongoose';
-import { PaginationDTO } from 'src/common/dto/base.dto';
-import { Helper } from 'src/common/helpful';
+import { PaginationDTO } from '../../common/dto/base.dto';
+import { Helper } from '../../common/helpful';
 import { CreateUpdateTodoDTO } from './todo.dto';
 import { Todo, TodoDocument } from './todo.schema';
 

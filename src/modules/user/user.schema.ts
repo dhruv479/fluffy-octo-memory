@@ -1,6 +1,6 @@
 import { Schema, Prop, SchemaFactory } from '@nestjs/mongoose';
 import { Types, Document } from 'mongoose';
-import { Constants } from 'src/common/constants';
+import { Constants } from '../../common/constants';
 
 @Schema({
   collection: 'User',

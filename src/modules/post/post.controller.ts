@@ -12,7 +12,7 @@ import {
 import { AddCommentDTO, CreateUpdatePostDTO } from './post.dto';
 import { PostService } from './post.service';
 import { Request } from 'express';
-import { PaginationDTO } from 'src/common/dto/base.dto';
+import { PaginationDTO } from '../../common/dto/base.dto';
 
 @Controller('post')
 export class PostController {

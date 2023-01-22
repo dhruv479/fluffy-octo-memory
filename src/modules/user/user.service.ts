@@ -8,10 +8,10 @@ import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
 import { CreateUserDTO, LoginUserDTO, UpdateUserStatusDTO } from './user.dto';
 import { UserDocument, User } from './user.schema';
-import { PasswordUtils } from 'src/common/utils/password';
-import { TokenUtil } from 'src/common/utils/token';
-import { PaginationDTO } from 'src/common/dto/base.dto';
-import { Helper } from 'src/common/helpful';
+import { PasswordUtils } from '../../common/utils/password';
+import { TokenUtil } from '../../common/utils/token';
+import { PaginationDTO } from '../../common/dto/base.dto';
+import { Helper } from '../../common/helpful';
 
 @Injectable()
 export class UserService {
